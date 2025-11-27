@@ -1,32 +1,32 @@
 [
   {
     "num": 1,
-    "name": "NASA TV",
+    "name": "Big Buck Bunny (Loop)",
     "stream_type": "live",
     "stream_id": 1,
-    "stream_icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/300px-NASA_logo.svg.png",
+    "stream_icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/300px-Big_buck_bunny_poster_big.jpg",
     "epg_channel_id": "",
     "added": "1609459200",
     "is_adult": "0",
     "category_id": "100",
     "custom_sid": "",
     "tv_archive": 0,
-    "direct_source": "https://ntv2-2.akamaized.net/hls/live/2014075/NASA-TV-HLS/master.m3u8",
+    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "tv_archive_duration": 0
   },
   {
     "num": 2,
-    "name": "Red Bull TV",
+    "name": "Sintel (Demo)",
     "stream_type": "live",
     "stream_id": 2,
-    "stream_icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Red_Bull_Racing_logo.svg/300px-Red_Bull_Racing_logo.svg.png",
+    "stream_icon": "https://image.tmdb.org/t/p/w300/sXEGeRMChI6bGGKPj2P0Vbd5z9C.jpg",
     "epg_channel_id": "",
     "added": "1609459200",
     "is_adult": "0",
     "category_id": "100",
     "custom_sid": "",
     "tv_archive": 0,
-    "direct_source": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     "tv_archive_duration": 0
   }
 ]

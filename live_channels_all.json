@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "name": "NASA TV",
+    "logo": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png",
+    "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-Public-Channel/master.m3u8"
+  }
+]

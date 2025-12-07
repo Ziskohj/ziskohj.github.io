@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Demo Series",
-    "cover": "https://image.tmdb.org/t/p/w500/9faGSFi5jam6pDWGNd0p8JcJgXQ.jpg",
+    "cover": "https://picsum.photos/seed/demo-series-cover/600/900",
     "plot": "Una serie de demostración diseñada específicamente para pruebas en Apple Store y para mostrar todo el potencial de la app OnePlay. La historia sigue a un grupo de personajes que descubren una red secreta de transmisión digital que desafía los límites de la tecnología actual.",
     "cast": "Demo Cast, Actor Principal, Actriz Secundaria, Invitado Especial",
     "director": "Director Demo",
@@ -13,7 +13,7 @@
     "episode_run_time": "45",
     "category_id": "10",
     "backdrop_path": [
-      "https://image.tmdb.org/t/p/original/9faGSFi5jam6pDWGNd0p8JcJgXQ.jpg"
+      "https://picsum.photos/seed/demo-series-backdrop/1080/1600"
     ]
   },
 
@@ -31,7 +31,7 @@
           "plot": "El primer episodio presenta a los protagonistas y el misterio principal: una transmisión digital que aparece sin explicación en los servidores globales.",
           "duration_secs": 654,
           "rating": 8.0,
-          "movie_image": "https://image.tmdb.org/t/p/w500/dQLGDjv8JnRXReiKFfsPJfJPjM7.jpg"
+          "movie_image": "https://picsum.photos/seed/episode1-cover/600/900"
         }
       },
       {
@@ -46,7 +46,7 @@
           "plot": "La investigación avanza cuando el equipo encuentra un patrón oculto en la señal que podría indicar un origen no humano.",
           "duration_secs": 596,
           "rating": 8.2,
-          "movie_image": "https://image.tmdb.org/t/p/w500/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg"
+          "movie_image": "https://picsum.photos/seed/episode2-cover/600/900"
         }
       },
       {
@@ -61,7 +61,7 @@
           "plot": "Aparecen nuevas transmisiones alrededor del mundo, todas con la misma firma digital. El equipo empieza a sospechar que no están solos siguiendo esta pista.",
           "duration_secs": 715,
           "rating": 8.4,
-          "movie_image": "https://picsum.photos/seed/episode3/600/900"
+          "movie_image": "https://picsum.photos/seed/episode3-cover/600/900"
         }
       },
       {
@@ -76,7 +76,7 @@
           "plot": "Una entidad desconocida envía un mensaje encriptado dentro de la señal. Al descifrarlo, descubren una advertencia que puede cambiar el rumbo de la humanidad.",
           "duration_secs": 602,
           "rating": 8.6,
-          "movie_image": "https://picsum.photos/seed/episode4/600/900"
+          "movie_image": "https://picsum.photos/seed/episode4-cover/600/900"
         }
       },
       {
@@ -91,7 +91,7 @@
           "plot": "El equipo se prepara para un contacto directo con los responsables de la señal. Pero lo que encuentran es muy diferente a lo esperado.",
           "duration_secs": 640,
           "rating": 8.7,
-          "movie_image": "https://picsum.photos/seed/episode5/600/900"
+          "movie_image": "https://picsum.photos/seed/episode5-cover/600/900"
         }
       }
     ]

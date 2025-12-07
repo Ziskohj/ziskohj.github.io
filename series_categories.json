@@ -3,5 +3,75 @@
     "category_id": "10",
     "category_name": "Series Demo",
     "parent_id": 0
+  },
+  {
+    "category_id": "11",
+    "category_name": "Drama",
+    "parent_id": 0
+  },
+  {
+    "category_id": "12",
+    "category_name": "Comedia",
+    "parent_id": 0
+  },
+  {
+    "category_id": "13",
+    "category_name": "Acción",
+    "parent_id": 0
+  },
+  {
+    "category_id": "14",
+    "category_name": "Ciencia Ficción",
+    "parent_id": 0
+  },
+  {
+    "category_id": "15",
+    "category_name": "Fantasía",
+    "parent_id": 0
+  },
+  {
+    "category_id": "16",
+    "category_name": "Documental",
+    "parent_id": 0
+  },
+  {
+    "category_id": "17",
+    "category_name": "Crimen",
+    "parent_id": 0
+  },
+  {
+    "category_id": "18",
+    "category_name": "Thriller",
+    "parent_id": 0
+  },
+  {
+    "category_id": "19",
+    "category_name": "Animación",
+    "parent_id": 0
+  },
+  {
+    "category_id": "20",
+    "category_name": "Aventura",
+    "parent_id": 0
+  },
+  {
+    "category_id": "21",
+    "category_name": "Terror",
+    "parent_id": 0
+  },
+  {
+    "category_id": "22",
+    "category_name": "Histórica",
+    "parent_id": 0
+  },
+  {
+    "category_id": "23",
+    "category_name": "Romance",
+    "parent_id": 0
+  },
+  {
+    "category_id": "24",
+    "category_name": "Superhéroes",
+    "parent_id": 0
   }
 ]

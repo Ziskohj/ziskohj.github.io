@@ -1,17 +1,42 @@
 [
   {
     "category_id": "1",
-    "category_name": "Animación",
-    "parent_id": 0
-  },
-  {
-    "category_id": "2",
     "category_name": "Acción",
     "parent_id": 0
   },
   {
-    "category_id": "3",
+    "category_id": "2",
     "category_name": "Drama",
+    "parent_id": 0
+  },
+  {
+    "category_id": "3",
+    "category_name": "Comedia",
+    "parent_id": 0
+  },
+  {
+    "category_id": "4",
+    "category_name": "Sci-fy",
+    "parent_id": 0
+  },
+  {
+    "category_id": "5",
+    "category_name": "Terror",
+    "parent_id": 0
+  },
+  {
+    "category_id": "6",
+    "category_name": "Documental",
+    "parent_id": 0
+  },
+  {
+    "category_id": "7",
+    "category_name": "Fantasía,
+    "parent_id": 0
+  },
+  {
+    "category_id": "8",
+    "category_name": "Animación",
     "parent_id": 0
   }
 ]

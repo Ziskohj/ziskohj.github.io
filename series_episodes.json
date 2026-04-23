@@ -2,96 +2,94 @@
   "info": {
     "name": "Demo Series",
     "cover": "https://picsum.photos/seed/demo-series-cover/600/900",
-    "plot": "Una serie de demostración diseñada específicamente para pruebas en Apple Store y para mostrar todo el potencial de la app OnePlay. La historia sigue a un grupo de personajes que descubren una red secreta de transmisión digital que desafía los límites de la tecnología actual.",
-    "cast": "Demo Cast, Actor Principal, Actriz Secundaria, Invitado Especial",
+    "plot": "Una serie de demostración diseñada específicamente para pruebas en Apple Store y para mostrar todo el potencial de la app OnePlay.",
+    "cast": "Demo Cast",
     "director": "Director Demo",
     "genre": "Drama, Ciencia Ficción",
     "releaseDate": "2024",
     "rating": "8.5",
     "rating_5based": 4.25,
-    "youtube_trailer": "",
     "episode_run_time": "45",
     "category_id": "10",
     "backdrop_path": [
       "https://picsum.photos/seed/demo-series-backdrop/1080/1600"
     ]
   },
-
   "episodes": {
     "1": [
       {
-        "id": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "id": "ep1",
         "episode_num": 1,
         "title": "Episodio 1 - Piloto",
         "container_extension": "mp4",
         "added": "1609459200",
         "season": 1,
-        "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "direct_source": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
         "info": {
-          "plot": "El primer episodio presenta a los protagonistas y el misterio principal: una transmisión digital que aparece sin explicación en los servidores globales.",
+          "plot": "Inicio de la historia.",
           "duration_secs": 654,
           "rating": 8.0,
-          "movie_image": "https://picsum.photos/seed/episode1-cover/600/900"
+          "movie_image": "https://picsum.photos/seed/episode1/600/900"
         }
       },
       {
-        "id": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "id": "ep2",
         "episode_num": 2,
-        "title": "Episodio 2 - El Desarrollo",
+        "title": "Episodio 2",
         "container_extension": "mp4",
         "added": "1609545600",
         "season": 1,
-        "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "direct_source": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
         "info": {
-          "plot": "La investigación avanza cuando el equipo encuentra un patrón oculto en la señal que podría indicar un origen no humano.",
+          "plot": "Continúa la historia.",
           "duration_secs": 596,
           "rating": 8.2,
-          "movie_image": "https://picsum.photos/seed/episode2-cover/600/900"
+          "movie_image": "https://picsum.photos/seed/episode2/600/900"
         }
       },
       {
-        "id": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        "id": "ep3",
         "episode_num": 3,
-        "title": "Episodio 3 - Señales Paralelas",
+        "title": "Episodio 3",
         "container_extension": "mp4",
         "added": "1609632000",
         "season": 1,
-        "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        "direct_source": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
         "info": {
-          "plot": "Aparecen nuevas transmisiones alrededor del mundo, todas con la misma firma digital. El equipo empieza a sospechar que no están solos siguiendo esta pista.",
+          "plot": "Más desarrollo.",
           "duration_secs": 715,
           "rating": 8.4,
-          "movie_image": "https://picsum.photos/seed/episode3-cover/600/900"
+          "movie_image": "https://picsum.photos/seed/episode3/600/900"
         }
       },
       {
-        "id": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "id": "ep4",
         "episode_num": 4,
-        "title": "Episodio 4 - La Amenaza",
+        "title": "Episodio 4",
         "container_extension": "mp4",
         "added": "1609718400",
         "season": 1,
-        "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "direct_source": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
         "info": {
-          "plot": "Una entidad desconocida envía un mensaje encriptado dentro de la señal. Al descifrarlo, descubren una advertencia que puede cambiar el rumbo de la humanidad.",
+          "plot": "Climax.",
           "duration_secs": 602,
           "rating": 8.6,
-          "movie_image": "https://picsum.photos/seed/episode4-cover/600/900"
+          "movie_image": "https://picsum.photos/seed/episode4/600/900"
         }
       },
       {
-        "id": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+        "id": "ep5",
         "episode_num": 5,
-        "title": "Episodio 5 - Punto de No Retorno",
+        "title": "Episodio 5",
         "container_extension": "mp4",
         "added": "1609804800",
         "season": 1,
-        "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+        "direct_source": "https://test-streams.mux.dev/test_001/stream.m3u8",
         "info": {
-          "plot": "El equipo se prepara para un contacto directo con los responsables de la señal. Pero lo que encuentran es muy diferente a lo esperado.",
+          "plot": "Final.",
           "duration_secs": 640,
           "rating": 8.7,
-          "movie_image": "https://picsum.photos/seed/episode5-cover/600/900"
+          "movie_image": "https://picsum.photos/seed/episode5/600/900"
         }
       }
     ]

@@ -7,12 +7,9 @@
     "stream_icon": "https://picsum.photos/seed/big-buck-bunny/600/900",
     "rating": "7.2",
     "rating_5based": 3.6,
-    "added": "1609459200",
     "category_id": "1",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
   },
   {
     "num": 2,
@@ -22,12 +19,9 @@
     "stream_icon": "https://picsum.photos/seed/elephants-dream/600/900",
     "rating": "6.5",
     "rating_5based": 3.25,
-    "added": "1609459200",
     "category_id": "1",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://filesamples.com/samples/video/mp4/sample_640x360.mp4"
   },
   {
     "num": 3,
@@ -37,12 +31,9 @@
     "stream_icon": "https://picsum.photos/seed/sintel/600/900",
     "rating": "7.8",
     "rating_5based": 3.9,
-    "added": "1609545600",
     "category_id": "1",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4"
   },
   {
     "num": 4,
@@ -52,12 +43,9 @@
     "stream_icon": "https://picsum.photos/seed/tears-of-steel/600/900",
     "rating": "6.9",
     "rating_5based": 3.45,
-    "added": "1609545600",
     "category_id": "2",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://filesamples.com/samples/video/mp4/sample_960x400_ocean_with_audio.mp4"
   },
   {
     "num": 5,
@@ -67,12 +55,9 @@
     "stream_icon": "https://picsum.photos/seed/cosmos-discovery/600/900",
     "rating": "7.4",
     "rating_5based": 3.7,
-    "added": "1609545600",
     "category_id": "9",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-15s.mp4"
   },
   {
     "num": 6,
@@ -82,12 +67,9 @@
     "stream_icon": "https://picsum.photos/seed/wildlife-doc/600/900",
     "rating": "7.9",
     "rating_5based": 3.95,
-    "added": "1609545600",
     "category_id": "6",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4"
   },
   {
     "num": 7,
@@ -97,12 +79,9 @@
     "stream_icon": "https://picsum.photos/seed/fantasy-world/600/900",
     "rating": "8.0",
     "rating_5based": 4.0,
-    "added": "1609545600",
     "category_id": "10",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-20s.mp4"
   },
   {
     "num": 8,
@@ -112,12 +91,9 @@
     "stream_icon": "https://picsum.photos/seed/romantic-journey/600/900",
     "rating": "7.1",
     "rating_5based": 3.55,
-    "added": "1609545600",
     "category_id": "7",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://filesamples.com/samples/video/mp4/sample_640x360.mp4"
   },
   {
     "num": 9,
@@ -127,12 +103,9 @@
     "stream_icon": "https://picsum.photos/seed/mystery-case/600/900",
     "rating": "7.0",
     "rating_5based": 3.5,
-    "added": "1609545600",
     "category_id": "12",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-5mb.mp4"
   },
   {
     "num": 10,
@@ -142,12 +115,9 @@
     "stream_icon": "https://picsum.photos/seed/horror-night/600/900",
     "rating": "6.8",
     "rating_5based": 3.4,
-    "added": "1609545600",
     "category_id": "5",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://filesamples.com/samples/video/mp4/sample_960x540.mp4"
   },
   {
     "num": 11,
@@ -157,12 +127,9 @@
     "stream_icon": "https://picsum.photos/seed/comedy-demo/600/900",
     "rating": "7.3",
     "rating_5based": 3.65,
-    "added": "1609545600",
     "category_id": "4",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-10mb.mp4"
   },
   {
     "num": 12,
@@ -172,12 +139,9 @@
     "stream_icon": "https://picsum.photos/seed/criminal-mind/600/900",
     "rating": "7.7",
     "rating_5based": 3.85,
-    "added": "1609545600",
     "category_id": "14",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://filesamples.com/samples/video/mp4/sample_1280x720_surfing.mp4"
   },
   {
     "num": 13,
@@ -187,12 +151,9 @@
     "stream_icon": "https://picsum.photos/seed/family-adventures/600/900",
     "rating": "7.5",
     "rating_5based": 3.75,
-    "added": "1609545600",
     "category_id": "15",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-15mb.mp4"
   },
   {
     "num": 14,
@@ -202,12 +163,9 @@
     "stream_icon": "https://picsum.photos/seed/adventure-island/600/900",
     "rating": "7.4",
     "rating_5based": 3.7,
-    "added": "1609545600",
     "category_id": "8",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://filesamples.com/samples/video/mp4/sample_1920x1080.mp4"
   },
   {
     "num": 15,
@@ -217,11 +175,8 @@
     "stream_icon": "https://picsum.photos/seed/sci-fi-galaxy/600/900",
     "rating": "8.1",
     "rating_5based": 4.05,
-    "added": "1609545600",
     "category_id": "9",
     "container_extension": "mp4",
-    "custom_sid": "",
-    "direct_source": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "tmdb_id": "0"
+    "direct_source": "https://samplelib.com/lib/preview/mp4/sample-20mb.mp4"
   }
 ]

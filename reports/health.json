@@ -1,17 +1,10 @@
 {
-  "generado": "2026-09-15 09:00 UTC",
+  "generado": "2026-09-16 08:53 UTC",
   "chequeado": {
     "live": 29,
     "vod_refs": 336
   },
   "auto_reparado": [],
-  "caidos": [
-    {
-      "tipo": "live",
-      "id": 1009,
-      "nombre": "NASA TV Public",
-      "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8"
-    }
-  ],
+  "caidos": [],
   "nota": "Streams live que fallan desde runners de EE.UU. pueden ser geo-bloqueo (p.ej. RTVE), no muerte real."
 }

@@ -10,7 +10,7 @@
     "category_id": "101",
     "tv_archive": 1,
     "tv_archive_duration": 7,
-    "direct_source": "https://static.france24.com/live/F24_EN_HI_HLS/live_web.m3u8"
+    "direct_source": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8"
   },
   {
     "num": 2,
@@ -36,7 +36,7 @@
     "category_id": "101",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8"
+    "direct_source": "https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8"
   },
   {
     "num": 4,
@@ -62,7 +62,7 @@
     "category_id": "101",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8"
+    "direct_source": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8"
   },
   {
     "num": 6,
@@ -88,7 +88,7 @@
     "category_id": "101",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8"
+    "direct_source": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8"
   },
   {
     "num": 8,
@@ -102,32 +102,6 @@
     "tv_archive": 0,
     "tv_archive_duration": 0,
     "direct_source": "https://dwamdstream101.akamaized.net/hls/live/2015524/dwstream101/index.m3u8"
-  },
-  {
-    "num": 9,
-    "name": "NASA TV Public",
-    "stream_type": "live",
-    "stream_id": 1009,
-    "stream_icon": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/nasa-tv-us.png",
-    "epg_channel_id": "nasa.tv",
-    "is_adult": "0",
-    "category_id": "100",
-    "tv_archive": 0,
-    "tv_archive_duration": 0,
-    "direct_source": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8"
-  },
-  {
-    "num": 10,
-    "name": "NASA TV Media",
-    "stream_type": "live",
-    "stream_id": 1010,
-    "stream_icon": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/nasa-tv-globe-color-us.png",
-    "epg_channel_id": "nasamedia.tv",
-    "is_adult": "0",
-    "category_id": "100",
-    "tv_archive": 0,
-    "tv_archive_duration": 0,
-    "direct_source": "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8"
   },
   {
     "num": 11,
@@ -192,7 +166,7 @@
     "category_id": "103",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8"
+    "direct_source": "https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8"
   },
   {
     "num": 1016,
@@ -274,29 +248,29 @@
   },
   {
     "num": 1022,
-    "name": "CGTN Español",
+    "name": "TRT World",
     "stream_type": "live",
     "stream_id": 1022,
-    "stream_icon": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cgtn-spanish-int.png",
-    "epg_channel_id": "cgtn.es",
+    "stream_icon": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-world-tr.png",
+    "epg_channel_id": "trtworld",
     "is_adult": "0",
     "category_id": "101",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8"
+    "direct_source": "https://tv-trtworld.medya.trt.com.tr/master.m3u8"
   },
   {
     "num": 1023,
-    "name": "CGTN Français",
+    "name": "TV5Monde Info",
     "stream_type": "live",
     "stream_id": 1023,
-    "stream_icon": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cgtn-french-int.png",
-    "epg_channel_id": "cgtn.fr",
+    "stream_icon": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tv5-monde-fr.png",
+    "epg_channel_id": "tv5monde.info",
     "is_adult": "0",
     "category_id": "101",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://news.cgtn.com/resource/live/french/cgtn-f.m3u8"
+    "direct_source": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8"
   },
   {
     "num": 1024,
@@ -309,7 +283,7 @@
     "category_id": "101",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://static.france24.com/live/F24_AR_LO_HLS/live_web.m3u8"
+    "direct_source": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8"
   },
   {
     "num": 1025,
@@ -348,7 +322,7 @@
     "category_id": "104",
     "tv_archive": 0,
     "tv_archive_duration": 0,
-    "direct_source": "https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8"
+    "direct_source": "https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8"
   },
   {
     "num": 1028,

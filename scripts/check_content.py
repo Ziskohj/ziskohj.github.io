@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Verificador de salud del contenido del demo de OnePlay.
-# - Streams live (live.json): descarga el .m3u8 y exige #EXTM3U.
+# - Streams live (live.json): sigue la cadena que hace falta para reproducir (lista maestra → primera variante →
+#   primer segmento). Solo la maestra no basta: puede ser un fichero estático que sigue en pie con las variantes muertas.
 # - Pelis/series (movies_all.json + series_episodes_*.json): comprueba que el
 #   fichero exacto sigue existiendo en archive.org via la metadata API
 #   (NUNCA con HEAD masivo: archive.org rate-limitea y da falsos muertos).
@@ -47,22 +48,57 @@ def probe_file(url):
         time.sleep(5)
     return False
 
+def fetch_playlist(url):
+    """Una lista m3u8 y la dirección final tras las redirecciones (base de sus entradas relativas)."""
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return r.read(400000).decode("utf-8", "replace"), r.geturl()
+
+def first_entry(playlist):
+    for line in playlist.splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            return line
+    return None
+
+def live_stream_alive(url):
+    """(vivo, motivo). Un directo vive si se puede REPRODUCIR, no si responde su lista maestra: FRANCE 24, CGTN y NASA
+    estuvieron meses con la maestra en 200 y las variantes en 400/404 o sin DNS, y la app solo podía dar «Reconectando»."""
+    playlist, base = fetch_playlist(url)
+    if not playlist.lstrip().startswith("#EXTM3U"):
+        return False, "la maestra no es una lista m3u8"
+    entry = first_entry(playlist)
+    if entry is None:
+        return False, "la maestra no tiene entradas"
+    if "#EXT-X-STREAM-INF" in playlist:
+        playlist, base = fetch_playlist(urllib.parse.urljoin(base, entry))
+        if not playlist.lstrip().startswith("#EXTM3U"):
+            return False, "la variante no es una lista m3u8"
+        entry = first_entry(playlist)
+        if entry is None:
+            return False, "la variante no tiene segmentos"
+    req = urllib.request.Request(urllib.parse.urljoin(base, entry),
+                                 headers={"User-Agent": UA, "Range": "bytes=0-1023"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        if r.status not in (200, 206):
+            return False, f"el segmento responde {r.status}"
+    return True, ""
+
 def check_live():
     dead = []
     for ch in json.load(open("live.json")):
         url = ch.get("direct_source", "")
-        ok = False
+        ok, reason = False, ""
         for _ in range(2):
             try:
-                body = fetch(url, timeout=20)
-                if body.lstrip().startswith(b"#EXTM3U"):
-                    ok = True
+                ok, reason = live_stream_alive(url)
+                if ok:
                     break
-            except Exception:
-                pass
+            except Exception as e:
+                reason = f"{type(e).__name__}: {e}"[:160]
             time.sleep(3)
         if not ok:
-            dead.append({"tipo": "live", "id": ch["stream_id"], "nombre": ch["name"], "url": url})
+            dead.append({"tipo": "live", "id": ch["stream_id"], "nombre": ch["name"], "url": url, "motivo": reason})
         time.sleep(0.5)
     return dead
 

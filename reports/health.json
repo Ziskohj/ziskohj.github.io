@@ -1,10 +1,18 @@
 {
-  "generado": "2026-10-02 10:05 UTC",
+  "generado": "2026-10-03 09:28 UTC",
   "chequeado": {
-    "live": 29,
+    "live": 27,
     "vod_refs": 336
   },
   "auto_reparado": [],
-  "caidos": [],
+  "caidos": [
+    {
+      "tipo": "live",
+      "id": 1023,
+      "nombre": "TV5Monde Info",
+      "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8",
+      "motivo": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
   "nota": "Streams live que fallan desde runners de EE.UU. pueden ser geo-bloqueo (p.ej. RTVE), no muerte real."
 }

@@ -1,18 +1,11 @@
 {
-  "generado": "2026-10-23 08:52 UTC",
+  "generado": "2026-10-24 08:26 UTC",
   "chequeado": {
     "live": 27,
     "vod_refs": 336
   },
   "auto_reparado": [],
   "caidos": [
-    {
-      "tipo": "live",
-      "id": 1015,
-      "nombre": "Canal Prueba HLS",
-      "url": "https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8",
-      "motivo": "HTTPError: HTTP Error 502: Bad Gateway"
-    },
     {
       "tipo": "live",
       "id": 1023,

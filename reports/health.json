@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27 09:22 UTC",
+  "generado": "2026-10-28 10:06 UTC",
   "chequeado": {
     "live": 27,
     "vod_refs": 336
@@ -12,6 +12,13 @@
       "nombre": "TV5Monde Info",
       "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8",
       "motivo": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "tipo": "episode",
+      "id": "6125",
+      "nombre": "Superman ep 6125",
+      "url": "https://archive.org/download/max-fleischers-superman_202601/Max%20Fleischer%27s%20Superman%20-%20The%20Mechanical%20Monsters.ia.mp4",
+      "motivo": "fichero ausente"
     }
   ],
   "nota": "Streams live que fallan desde runners de EE.UU. pueden ser geo-bloqueo (p.ej. RTVE), no muerte real."

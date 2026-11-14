@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-13 11:35 UTC",
+  "generado": "2026-11-14 10:57 UTC",
   "chequeado": {
     "live": 27,
     "vod_refs": 336
@@ -8,10 +8,38 @@
   "caidos": [
     {
       "tipo": "live",
+      "id": 1001,
+      "nombre": "FRANCE 24 English",
+      "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8",
+      "motivo": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "tipo": "live",
+      "id": 1005,
+      "nombre": "FRANCE 24 Español",
+      "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+      "motivo": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "tipo": "live",
+      "id": 1007,
+      "nombre": "FRANCE 24 Français",
+      "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8",
+      "motivo": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "tipo": "live",
       "id": 1023,
       "nombre": "TV5Monde Info",
       "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8",
       "motivo": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "tipo": "live",
+      "id": 1024,
+      "nombre": "FRANCE 24 عربي",
+      "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
+      "motivo": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "tipo": "episode",

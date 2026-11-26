@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-25 13:31 UTC",
+  "generado": "2026-11-26 13:28 UTC",
   "chequeado": {
     "live": 27,
     "vod_refs": 336
@@ -12,6 +12,104 @@
       "nombre": "TV5Monde Info",
       "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8",
       "motivo": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "tipo": "movie",
+      "id": 9,
+      "nombre": "Plan 9 del espacio exterior",
+      "url": "https://archive.org/download/774-plan-9-from-outer-space/774-Plan9FromOuterSpace.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11101",
+      "nombre": "Science Fiction Theatre ep 11101",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-01%20Beyond.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11102",
+      "nombre": "Science Fiction Theatre ep 11102",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-02%20Time%20Is%20Just%20a%20Place.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11103",
+      "nombre": "Science Fiction Theatre ep 11103",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-03%20Out%20of%20Nowhere.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11104",
+      "nombre": "Science Fiction Theatre ep 11104",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-04%20Y..O..R..D...mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11105",
+      "nombre": "Science Fiction Theatre ep 11105",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-05%20Stranger%20in%20the%20Desert.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11106",
+      "nombre": "Science Fiction Theatre ep 11106",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-06%20No%20Food%20for%20Thought.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11107",
+      "nombre": "Science Fiction Theatre ep 11107",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-07%20The%20Brain%20of%20John%20Emerson.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11108",
+      "nombre": "Science Fiction Theatre ep 11108",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-08%20Spider%2C%20Inc.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11109",
+      "nombre": "Science Fiction Theatre ep 11109",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-09%20Death%20at%202%20A.M..mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11110",
+      "nombre": "Science Fiction Theatre ep 11110",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-10%20Conversation%20with%20an%20Ape.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11111",
+      "nombre": "Science Fiction Theatre ep 11111",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-11%20Marked%20Danger.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11112",
+      "nombre": "Science Fiction Theatre ep 11112",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-12%20Hour%20of%20Nightmare.mp4",
+      "motivo": "item desaparecido"
+    },
+    {
+      "tipo": "episode",
+      "id": "11113",
+      "nombre": "Science Fiction Theatre ep 11113",
+      "url": "https://archive.org/download/science-fiction-theatre-season-1/1-13%20100%20Years%20Young.mp4",
+      "motivo": "item desaparecido"
     },
     {
       "tipo": "episode",
